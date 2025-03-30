@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* .dm-sans-<uniquifier> {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+.body{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header{
+    margin-bottom: 2rem;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.form{
+    form{
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        justify-self: center;
+
+    }
+}
+
+.bloodTestInput{
+    display: grid;
+}
+
+.submitButton{
+    width: 12rem;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testResults{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    justify-self: center;
+}
+
+.testResultWindow{
+    padding: 1rem;
+}
